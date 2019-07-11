@@ -1,0 +1,36 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "designaws-dev-20190617134941-authRole",
+            "UnauthRoleArn": "arn:aws:iam::148827594313:role/designaws-dev-20190617134941-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::148827594313:role/designaws-dev-20190617134941-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "designaws-dev-20190617134941-deployment",
+            "UnauthRoleName": "designaws-dev-20190617134941-unauthRole",
+            "StackName": "designaws-dev-20190617134941",
+            "StackId": "arn:aws:cloudformation:us-west-2:148827594313:stack/designaws-dev-20190617134941/6e1c4900-9141-11e9-9aed-0257c37ead4a"
+        },
+        "categories": {
+            "auth": {
+                "designaws465ef857": {}
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "designaws-prod-20190711123809-authRole",
+            "UnauthRoleArn": "arn:aws:iam::148827594313:role/designaws-prod-20190711123809-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::148827594313:role/designaws-prod-20190711123809-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "designaws-prod-20190711123809-deployment",
+            "UnauthRoleName": "designaws-prod-20190711123809-unauthRole",
+            "StackName": "designaws-prod-20190711123809",
+            "StackId": "arn:aws:cloudformation:us-west-2:148827594313:stack/designaws-prod-20190711123809/69780d00-a413-11e9-889d-06626aec1288"
+        },
+        "categories": {
+            "auth": {
+                "designaws465ef857": {}
+            }
+        }
+    }
+}

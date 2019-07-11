@@ -1,0 +1,7 @@
+type Design @model {
+  id: ID!
+  name: String!
+  description: String
+  videoUrl: String
+  imageUrl: String
+}

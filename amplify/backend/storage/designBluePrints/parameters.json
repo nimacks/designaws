@@ -1,0 +1,7 @@
+{
+    "tableName": "design",
+    "partitionKeyName": "Id",
+    "partitionKeyType": "S",
+    "sortKeyName": "name",
+    "sortKeyType": "S"
+}

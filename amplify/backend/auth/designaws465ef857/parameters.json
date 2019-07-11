@@ -1,0 +1,71 @@
+{
+    "identityPoolName": "designaws465ef857_identitypool_465ef857",
+    "allowUnauthenticatedIdentities": true,
+    "lambdaLogPolicy": "design_465ef857_lambda_log_policy",
+    "openIdLambdaRoleName": "design_465ef857_openid_lambda_role",
+    "openIdRolePolicy": "design_465ef857_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "design_465ef857_openid_lambda_iam_policy",
+    "openIdLogPolicy": "design_465ef857_openid_lambda_log_policy",
+    "userPoolName": "designaws465ef857_userpool_465ef857",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "roleName": "design465ef857_sns-role",
+    "roleExternalId": "design465ef857_role_external_id",
+    "policyName": "design465ef857-sns-policy",
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientName": "design465ef857_app_client",
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "mfaLambdaRole": "design465ef857_totp_lambda_role",
+    "mfaLambdaLogPolicy": "design465ef857_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "design465ef857_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "design465ef857_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "design465ef857_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "design465ef857_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "design465ef857_userpoolclient_lambda_iam_policy",
+    "userpoolClientSetAttributes": false,
+    "resourceName": "designaws465ef857",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default",
+    "usernameAttributes": [
+        "email"
+    ]
+}
